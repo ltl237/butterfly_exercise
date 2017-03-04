@@ -1,0 +1,17 @@
+{
+  "name": "butterfly_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lorenzo llamas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "express-generator": "^4.14.1",
+    "express-handlebars": "^3.0.0"
+  }
+}

@@ -1,0 +1,76 @@
+.container {
+	background-color: #156B75;
+	width: 100%;
+
+	padding-left: 5%;
+	top: 0;
+	position: absolute;
+}
+
+.side {
+	position: absolute;
+	background-color: #0D4D54;
+	width: 3%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#happy {
+	border-radius: 50%;
+	background-color: white;
+	padding: 5px;
+	width: 100%;
+	max-width: 100px;
+
+}
+
+
+.bigBox {
+	padding: 2%;
+}
+
+#edit {
+	position: relative;
+	left: 3px;
+	background-color: #0D4D54; 
+	padding: 3px;
+}
+
+#firstText {
+	position: absolute;
+	top: 0;
+	left: 20%;
+
+}
+
+.q1 {
+	position: relative;
+	margin-top: 2%;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.qs > div {
+
+	position: relative;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 3px;
+	padding-bottom: 10px;
+}
+
+.col-md-6 > h3 {
+	padding: 2px;
+	color: gray;
+}
+
+.starStatus {
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 1%;
+}
