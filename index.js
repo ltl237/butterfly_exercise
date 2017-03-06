@@ -11,7 +11,23 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/', function(req, res){
-	res.render('home', {user: 'lorenzo'});
+	// Only the happy svg was working for me, the other images didn't display anything.
+	var secretNum = req.query.v;
+	var emote;
+	if(secretNum == 1){
+		emote = "Happy";
+	} else if (secretNum == 2){
+		emote = "Happy";
+	} else if (secretNum == 3){
+		emote = "Happy";
+	} else if (secretNum == 4){
+		emote = "Happy";
+	}else if (secretNum == 5){
+		emote = "Happy";
+	}
+	res.render('home', {emote: emote});
+	console.log(secretNum);
+	console.log(emote);
 })
 
 app.listen(3000);
