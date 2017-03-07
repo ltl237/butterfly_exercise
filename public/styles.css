@@ -5,6 +5,7 @@
 	padding-left: 5%;
 	top: 0;
 	position: absolute;
+	padding-bottom: 1%;
 }
 
 .side {
@@ -14,6 +15,7 @@
 	height: 100%;
 	left: 0;
 	top: 0;
+	padding-right: 15px;
 }
 
 #emote {
@@ -31,6 +33,10 @@
 	margin-left: 1em;
 	padding: 2%;
 	width: auto;
+}
+
+.bigBox p {
+	color: lightgray;
 }
 
 #edit {
@@ -55,14 +61,16 @@
 	border-radius: 3px;
 }
 
-
+div > h3 {
+	line-height: 120%;
+}
 
 .qs {
 	margin-left: 10px;
 }
 
 .qs > div {
-
+	line-height: 20%;
 	position: relative;
 	margin-top: 2%;
 	margin-left: 2%;
@@ -191,7 +199,7 @@ input {
 
 .q6 {
 	margin-top: 2%;
-	margin-left: 4%;
+	margin-left: 3%;
 	padding-bottom: 2%;
 	margin-bottom: 2%;
 	border: 1px solid blue;
@@ -217,9 +225,23 @@ input {
 	left: 3%;
 	text-align: center;
 	padding: 2%;
-	/*padding-bottom: 2%;*/
 	width: 10em;
 	border-radius: 5px;
 	margin-bottom: 5%;
 	background-color: #2CE6CE;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+}
+
+.closing {
+	margin-left: 2%;
+	color: white;
+}
+
+.closing:nth-child(2){
+	color: blue;
 }
