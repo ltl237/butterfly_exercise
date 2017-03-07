@@ -1,1 +1,1 @@
-# butterfly_exercise
+Run with node at port 3000, type '/?v=1' in the url. ?v=1-5 give the same image because only Happy.svg loaded for me so I didn't change it. I did not get to the edit button or the add comments.
