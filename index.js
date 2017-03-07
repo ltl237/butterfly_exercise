@@ -26,8 +26,7 @@ app.get('/', function(req, res){
 		emote = "Happy";
 	}
 	res.render('home', {emote: emote});
-	console.log(secretNum);
-	console.log(emote);
+	
 })
 
 app.listen(3000);
